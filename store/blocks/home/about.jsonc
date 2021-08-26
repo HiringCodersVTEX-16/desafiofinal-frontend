@@ -1,0 +1,7 @@
+{
+  "store.custom#about": { 
+    "blocks": [
+      "flex-layout.row#about"
+    ]
+}
+}

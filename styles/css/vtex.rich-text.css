@@ -1,0 +1,40 @@
+/*Banner About */
+.paragraph--about-banner {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+}
+
+.paragraph--about-dot {
+  animation: blinkingText 1s step-start infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: #fcc200;
+  }
+  49% {
+    color: #fcc200;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #fcc200;
+  }
+}
+
+.container--about-banner {
+  height: 230px;
+  justify-content: left;
+  flex-flow: row-reverse;
+}
+
+.container--about-dot {
+  height: 210px;
+  justify-content: left;
+  position: relative;
+}

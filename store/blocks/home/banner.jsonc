@@ -1,0 +1,37 @@
+{
+ "flex-layout.row#about":{
+ "children": ["flex-layout.col#aboutinner01", "flex-layout.col#aboutinner02"],
+ "props": {"blockClass": "about-banner",
+   "preventHorizontalStrech": true
+}
+},
+ "flex-layout.col#aboutinner01":{
+   "children": ["rich-text#about"],
+   "props": {"blockClass": "about-bannerinner  ", 
+   "preventHorizontalStrech": true}
+ },
+ "flex-layout.col#aboutinner02":{
+   "children": [  "rich-text#dot"   ],
+   "props": {"blockClass": "about-bannerinner  ", 
+   "preventHorizontalStrech": true}
+ },
+
+ "rich-text#about": { 
+   "props": { 
+     "text": "Sobre nós",
+     "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "font": "t-heading-1",
+     "blockClass": "about-banner"
+   }
+ },
+ "rich-text#dot": { 
+   "props": { 
+     "text": "_",
+     "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "font": "t-heading-1",
+     "blockClass": "about-dot"
+   }
+ }
+}

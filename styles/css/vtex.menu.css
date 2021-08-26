@@ -1,0 +1,26 @@
+.menuContainerNav--menu {
+  align-items: center;
+}
+
+.menuContainer--languages {
+  width: 5rem;
+  margin-right: 3rem;
+}
+.styledLinkContent--menu,
+.styledLinkContent--languages {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.styledLinkContent--languages {
+  padding-bottom: 10px;
+}
+
+.styledLinkContent--languages:hover,
+.styledLinkContent--menu:hover {
+  color: #fcc200;
+}
+
+.menuItem--languages {
+  width: 2rem;
+}

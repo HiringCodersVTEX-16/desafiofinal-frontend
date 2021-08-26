@@ -1,0 +1,23 @@
+/* Header */
+.flexColChild--logo-box {
+  padding: 1.5rem 0.3rem;
+  max-width: 600px;
+}
+
+.flexRowContent--header {
+  align-items: center;
+}
+
+/* Banner*/
+.flexRow--about-banner {
+  background-image: url('assets/img/cover-about-us.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 230px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--about-banner {
+  width: 40%;
+}
