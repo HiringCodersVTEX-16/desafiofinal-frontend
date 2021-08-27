@@ -3,6 +3,7 @@
   color: #ffffff;
   text-transform: uppercase;
   font-size: 2.25rem;
+  margin-top: 25px;
 }
 
 .paragraph--about-dot {
@@ -37,4 +38,18 @@
   height: 210px;
   justify-content: left;
   position: relative;
+}
+
+/* About Description*/
+.wrapper--about-descripttitle {
+  background: linear-gradient(to right, #000000 39%, #fcc200 0);
+  padding-top: 90px;
+  padding-bottom: 10px;
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper--about-descriptcontent {
+  padding-right: 35px;
 }
