@@ -1,0 +1,40 @@
+{
+ "flex-layout.row#slider":{
+  "props":{
+    "blockClass": "container-carrossel"
+  },
+  "children": [
+    "slider-layout#home"
+  ]
+},
+ "slider-layout#home": {
+ "props": {
+   "autoplay":{
+     "timeout": 5000,
+     "stopOnHover": true
+   },
+   "itemsPerPage": {
+     "desktop": 1,
+     "tablet": 1,
+     "phone": 1
+   },
+   "infinite": true,
+   "showNavigationArrows": "desktopOnly",
+   "blockClass": "carousel"
+ },
+ "children": ["image#01", "image#02"]
+},
+
+"image#01": {
+ "props": {
+   "src": "assets/img/slider-home-technology.png",
+   "link": "#"
+ }
+},
+"image#02": {
+ "props": {
+   "src": "assets/img/slider-home-product.png",
+   "link": "#"
+ }
+}
+}

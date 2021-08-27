@@ -1,3 +1,13 @@
+/* -------------- HOME ----------------*/
+.wrapper--home--shoptittle {
+  background: linear-gradient(to right, #000000 41%, #fcc200 0);
+  padding-top: 90px;
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* -------------- ABOUT -------------- */
 /*Banner About */
 .paragraph--about-banner {
   color: #ffffff;

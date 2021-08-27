@@ -1,0 +1,48 @@
+{
+ "flex-layout.row#shoptittle":{
+  "children":["flex-layout.col#shoptittle01"
+  ],
+  "props": {"blockClass": "home--shoptittle"}
+ },
+"flex-layout.col#shoptittle01":{
+  "children":["flex-layout.col#shoptittle02"
+  ],
+  "props": {"blockClass": "home--shoptittle"}
+ },
+"flex-layout.col#shoptittle02":{
+ "children":["rich-text#shoptittle"
+ ],
+ "props": {"blockClass": "home--shoptittle"}
+},
+"rich-text#shoptittle": { 
+ "props": { 
+   "text": "Produtos pensados pra você que veste a camisa da ACCT",
+   "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "font": "t-heading-1",
+   "blockClass": "home--shoptittle"
+ }
+},
+  "search-result-layout.customQuery#produtos": {
+    "blocks": [
+      "search-result-layout.desktop#produtos" 
+    ],
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "orderByField": "OrderByTopSaleDESC",
+        "mapField": "ft",
+         "maxItemsPerPage": 8,
+         "simulationBehavior": "skip"
+      }
+     }
+    },
+    "search-result-layout.desktop#produtos": {
+      "props":{
+        "preventRouteChange": true
+       },
+   "children":["search-content#produtos"]},
+   "search-content#produtos":{
+     "blocks": ["gallery", "not-found"]
+   }
+}

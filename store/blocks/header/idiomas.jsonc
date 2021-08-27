@@ -1,47 +1,20 @@
 {
- "vtex.menu@2.x:menu#languages": {
- "props": {
-  "blockClass": "languages",
-   "items": [
-     {
-       "id": "menu-item-en",
-       "type": "custom",
-       "iconId": null,
-       "highlight": false,
-       "itemProps": {
-         "type": "internal",
-         "href": "#",
-         "noFollow": false,
-         "tagTitle": "english",
-         "text": "EN"
-       }
-     },
-     {
-       "id": "menu-item-pt",
-       "type": "custom",
-       "iconId": null,
-       "highlight": false,
-       "itemProps": {
-         "type": "internal",
-         "href": "#",
-         "noFollow": false,
-         "tagTitle": "portuguese",
-         "text": "PT"
-       }
-     },
-     {
-      "id": "menu-item-es",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "spanish",
-        "text": "ES"
-      }
-    }]
- }
-}
+  "vtex.menu@2.x:menu#languages": {
+    "children":["menu-item#pt"],
+    "props":{"blockClass": "languages"}
+  },
+  "menu-item#pt": {
+   "props": {
+     "id": "menu-item-pt",
+     "type": "custom",
+     "highlight": false,
+     "blockClass": "languages",
+     "itemProps": {
+       "type": "internal",
+       "href": "#",
+       "noFollow": false,
+       "tagTitle": "pt",
+       "text": "PT"
+     }
+   }}
 }

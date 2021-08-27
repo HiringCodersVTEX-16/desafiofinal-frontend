@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202116",
-  "name": "frontend",
+  "name": "home",
   "version": "0.1.1",
   "builders": {
     "assets": "0.x",
@@ -26,12 +26,12 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
+    "vtex.locale-switcher": "0.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.store-drawer": "0.x",
-    "vtex.locale-switcher": "0.x",
     "vtex.product-quantity": "1.x",
     "vtex.product-identifier": "0.x",
     "vtex.product-specification-badges": "0.x",

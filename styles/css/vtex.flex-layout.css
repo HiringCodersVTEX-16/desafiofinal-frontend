@@ -1,7 +1,6 @@
 /* Header */
 .flexColChild--logo-box {
   padding: 1.55rem 0rem 1.4rem 0.6rem;
-  max-width: 600px;
 }
 
 .flexRowContent--header {
@@ -10,6 +9,9 @@
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%) !important;
 }
 
+.flexRow--header {
+  background-color: #ffffff;
+}
 /* Banner*/
 .flexRow--about-banner {
   background-image: url('assets/img/cover-about-us.jpg');

@@ -1,0 +1,48 @@
+{
+ "vtex.menu@2.x:menu#whatwedo": {
+  "children":["menu-item#services", "menu-item#categories","menu-item#cases"],
+  "props":{"blockClass": "main-menu", "orientation":"vertical"}
+},
+"menu-item#services": {
+ "props": {
+   "id": "menu-item-home",
+   "type": "custom",
+   "highlight": false,
+   "blockClass": "sub-menu",
+   "itemProps": {
+     "type": "internal",
+     "href": "/sobre-nos",
+     "noFollow": false,
+     "tagTitle": "home",
+     "text": "Serviços"
+   }
+ }},
+ "menu-item#categories": {
+  "props": {
+    "id": "menu-item-press",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "sub-menu",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "press",
+      "text": "Categorias industriais"
+    }
+  }},
+  "menu-item#cases": {
+   "props": {
+     "id": "menu-item-carrer",
+     "type": "custom",
+     "highlight": false,
+     "blockClass": "sub-menu",
+     "itemProps": {
+       "type": "internal",
+       "href": "#",
+       "noFollow": false,
+       "tagTitle": "carrer",
+       "text": "Cases"
+     }
+   }}
+}
