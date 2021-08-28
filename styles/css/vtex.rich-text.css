@@ -94,3 +94,12 @@
 .wrapper--about-descriptcontent {
   padding-right: 35px;
 }
+
+/* Trusted by*/
+.wrapper--trusted-by-title {
+  background: linear-gradient(to right, #000000 89%, #fcc200 0);
+  padding-top: 90px;
+  padding-bottom: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
