@@ -58,6 +58,7 @@
 .container--email {
   width: 150px;
   vertical-align: top;
+  margin-top: -30px;
 }
 
 .link {
