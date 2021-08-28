@@ -1,0 +1,88 @@
+{
+ "flex-layout.row#serviceshome":{
+ "children": ["flex-layout.col#serviceshome01", "flex-layout.col#serviceshome02"],
+ "props": {"blockClass": "serviceshome"
+}
+},
+ "flex-layout.col#serviceshome01":{
+   "children": ["flex-layout.row#serviceshome01"],
+   "props": {"blockClass": "serviceshome01"}
+ },
+ "flex-layout.row#serviceshome01":{
+  "children": ["flex-layout.col#servicehome01A"]
+ },
+ "flex-layout.col#servicehome01A":{
+  "children": ["rich-text#serviceshome01"]
+ },
+ "rich-text#serviceshome01": { 
+  "props": { 
+    "text": "Quality Assurance",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "t-heading-1",
+    "blockClass": "serviceshome"
+  }
+},
+"flex-layout.col#serviceshome02":{
+ "children": ["flex-layout.row#serviceshome02"],
+ "props": {"blockClass": "serviceshome02"}
+},
+"flex-layout.row#serviceshome02":{
+"children": ["flex-layout.col#servicehome02A"]
+},
+"flex-layout.col#servicehome02A":{
+"children": ["rich-text#serviceshome02"]
+},
+"rich-text#serviceshome02": { 
+"props": { 
+  "text": "Growth e Data",
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "font": "t-heading-1",
+  "blockClass": "serviceshome"
+}
+},
+"flex-layout.row#serviceshomeB":{
+ "children": ["flex-layout.col#serviceshome03", "flex-layout.col#serviceshome04"],
+ "props": {"blockClass": "serviceshome"
+}
+},
+ "flex-layout.col#serviceshome03":{
+   "children": ["flex-layout.row#serviceshome03"],
+   "props": {"blockClass": "serviceshome03"}
+ },
+ "flex-layout.row#serviceshome03":{
+  "children": ["flex-layout.col#servicehome03A"]
+ },
+ "flex-layout.col#servicehome03A":{
+  "children": ["rich-text#serviceshome03"]
+ },
+ "rich-text#serviceshome03": { 
+  "props": { 
+    "text": "Experience Design",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "t-heading-1",
+    "blockClass": "serviceshome"
+  }
+},
+"flex-layout.col#serviceshome04":{
+ "children": ["flex-layout.row#serviceshome04"],
+ "props": {"blockClass": "serviceshome04"}
+},
+"flex-layout.row#serviceshome04":{
+"children": ["flex-layout.col#servicehome04A"]
+},
+"flex-layout.col#servicehome04A":{
+"children": ["rich-text#serviceshome04"]
+},
+"rich-text#serviceshome04": { 
+"props": { 
+  "text": "Tecnologia",
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "font": "t-heading-1",
+  "blockClass": "serviceshome"
+}
+}
+}

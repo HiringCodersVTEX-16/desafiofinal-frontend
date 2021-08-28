@@ -14,6 +14,10 @@
 }
 
 /* Home*/
+.flexRow--container-crrossel {
+  width: 100%;
+  object-fit: cover;
+}
 .flexColChild--home-text {
   text-align: center;
 }
@@ -21,6 +25,43 @@
 .flexColChild--home-text {
   width: inherit;
 }
+
+.flexCol--serviceshome01 {
+  background-image: url('assets/img/flip-delivery-squads.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome02 {
+  background-image: url('assets/img/flip-growth.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome03 {
+  background-image: url('assets/img/flip-exp-design.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome04 {
+  background-image: url('assets/img/flip-tecnology.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
 /* Banner Inner*/
 .flexRow--about-banner {
   background-image: url('assets/img/cover-about-us.jpg');
