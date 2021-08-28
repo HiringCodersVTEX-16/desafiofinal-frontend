@@ -1,0 +1,66 @@
+{
+ "store.custom#contact": { 
+   "blocks": [
+     "flex-layout.row#contact", "flex-layout.row#contactgrid"
+   ]
+},
+"flex-layout.row#contact":{
+ "children": ["flex-layout.col#contact01", "flex-layout.col#contact02"],
+ "props": {"blockClass": "contact-banner",
+   "preventHorizontalStrech": true
+}
+},
+ "flex-layout.col#contact01":{
+   "children": ["rich-text#contact"],
+   "props": {"blockClass": "contact-banner", 
+   "preventHorizontalStrech": true}
+ },
+ "flex-layout.col#contact02":{
+   "children": [  "rich-text#dot"   ],
+   "props": {"blockClass": "about-bannerinner  ", 
+   "preventHorizontalStrech": true}
+ },
+
+ "rich-text#contact": { 
+   "props": { 
+     "text": "Contato",
+     "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "font": "t-heading-1",
+     "blockClass": "inner-banner"
+   }
+ },
+ "flex-layout.row#contactgrid":{
+    "children": ["flex-layout.col#contactgrid01", "flex-layout.col#contactgrid02", "flex-layout.col#contactgrid03"]
+ },
+ "flex-layout.col#contactgrid01":{
+    "children":["image#contactgrid01"]
+ },
+ "flex-layout.col#contactgrid02":{
+   "children":["image#contactgrid02"]
+ },
+ "flex-layout.col#contactgrid03":{
+   "children":["image#contactgrid03"]
+ },
+ "image#contactgrid01": {
+   "props": {
+     "src": "assets/img/contact-saopaulo.jpg",
+     "maxHeight": 370,
+     "blockClass": "about-image"
+  }
+},
+"image#contactgrid02": {
+  "props": {
+    "src": "assets/img/contact-newyork.jpg",
+    "maxHeight": 370,
+    "blockClass": "about-image"
+  }
+},
+"image#contactgrid03": {
+  "props": {
+    "src": "assets/img/contact-saopaulo.jpg",
+    "maxHeight": 370,
+    "blockClass": "about-image"
+  }
+}
+}

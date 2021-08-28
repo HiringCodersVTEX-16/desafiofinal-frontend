@@ -1,0 +1,9 @@
+.cartIcon {
+  color: #121212;
+  width: 1.3rem;
+}
+
+.cartIcon--minicart-empty {
+  color: #fcc200;
+  width: 5rem;
+}

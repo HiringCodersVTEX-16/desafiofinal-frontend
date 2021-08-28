@@ -6,3 +6,13 @@
 .container .ph3 .ph5-m .ph2-xl .mw9 .center {
   width: 100%;
 }
+
+/* Product*/
+.discountInsideContainer {
+  background-color: #5974c7;
+}
+
+/*Footer*/
+.imageElement--selo-gptw {
+  padding-left: 110px;
+}

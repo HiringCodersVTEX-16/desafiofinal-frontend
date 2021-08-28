@@ -83,3 +83,8 @@
   margin-right: auto;
   padding-bottom: 80px;
 }
+
+/* Footer */
+.flexCol--social-networks {
+  margin-left: 2rem;
+}
