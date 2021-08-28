@@ -12,7 +12,16 @@
 .flexRow--header {
   background-color: #ffffff;
 }
-/* Banner*/
+
+/* Home*/
+.flexColChild--home-text {
+  text-align: center;
+}
+
+.flexColChild--home-text {
+  width: inherit;
+}
+/* Banner Inner*/
 .flexRow--about-banner {
   background-image: url('assets/img/cover-about-us.jpg');
   background-position: center center;

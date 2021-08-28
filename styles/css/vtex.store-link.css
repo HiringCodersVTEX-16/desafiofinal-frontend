@@ -1,0 +1,20 @@
+.label--button-saibamais {
+  text-transform: initial;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+  font-weight: 400;
+}
+
+.buttonLink--button-saibamais {
+  margin-top: 40px;
+  border-color: #5974c7;
+  color: #5974c7;
+  background-color: #ffffff;
+}
+
+.buttonLink--button-saibamais:hover {
+  background-color: #5974c7;
+  border: none;
+  color: #ffffff;
+}

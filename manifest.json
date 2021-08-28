@@ -14,6 +14,7 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
+    "vtex.store-link": "0.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
