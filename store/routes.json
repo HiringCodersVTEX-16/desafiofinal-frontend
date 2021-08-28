@@ -1,5 +1,8 @@
 {
  "store.custom#sobre": {
    "path": "/sobre-nos"
+ },
+ "store.custom#contact":{
+   "path": "/entre-em-contato"
  }
 }
