@@ -23,4 +23,13 @@
   -webkit-transform: scale(1);
   transform: scale(1);
   filter: grayscale(0%);
+
+/* Product*/
+.discountInsideContainer {
+  background-color: #5974c7;
+}
+
+/*Footer*/
+.imageElement--selo-gptw {
+  padding-left: 110px;
 }

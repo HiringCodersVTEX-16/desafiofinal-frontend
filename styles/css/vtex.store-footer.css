@@ -1,0 +1,17 @@
+.footerLayout {
+  margin-top: 5rem;
+  display: block;
+  padding: 75px 10rem 3rem 85px;
+  background: #f8f8f8;
+  color: #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.socialNetworksContainer {
+  width: 150px;
+  padding-left: 16px;
+}
+
+.socialNetworkImage--linkedin {
+  border-radius: 8px;
+}
