@@ -1,3 +1,36 @@
+/* -------------- HOME ----------------*/
+
+.wrapper--home--shoptittle {
+  background: linear-gradient(to right, #000000 41%, #fcc200 0);
+  padding-top: 90px;
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper--home-texttitle01 {
+  background: linear-gradient(to right, #000000 57%, #fcc200 0);
+  padding-top: 90px;
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper--home-texttitle02 {
+  background: linear-gradient(to right, #000000 43%, #fcc200 0);
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -70px;
+}
+
+.paragraph--home-text {
+  font-size: 20px;
+  line-height: 25px;
+  color: #040404;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed';
+}
+/* -------------- ABOUT -------------- */
 /*Banner About */
 .paragraph--about-banner {
   color: #ffffff;

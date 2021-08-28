@@ -28,8 +28,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop", "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#menuacct","flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#languages"
+      "vtex.menu@2.x:menu#mainmenu","flex-layout.col#spacer", "locale-switcher", "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {

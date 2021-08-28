@@ -1,0 +1,54 @@
+{
+ "flex-layout.row#hometext":{
+ "children":["flex-layout.col#hometext"
+ ],
+ "props": {"blockClass": "about-descript"}
+},
+"flex-layout.col#hometext":{
+ "children":["rich-text#hometitle01", "rich-text#hometitle02", "flex-layout.row#hometext02", "link#saibamais"
+ ],
+ "props": {"blockClass": "home-text"}
+},
+"rich-text#hometitle01": { 
+"props": { 
+  "text": "Buscamos constantemente a liderança global",
+  "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+  "font": "t-heading-3",
+  "blockClass": "home-texttitle01"
+}
+},
+
+ "rich-text#hometitle02": { 
+ "props": { 
+   "text": "quando se trata de  soluções para comércio digital.",
+   "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "font": "t-heading-3",
+   "blockClass": "home-texttitle02"
+ }
+ },
+"flex-layout.row#hometext02":{
+"children":["rich-text#hometext"
+],
+"props": {"blockClass": "about-descriptcontent"}
+},
+"rich-text#hometext": { 
+"props": { 
+  "text": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
+  "textAlignment": "LEFT",
+  "textPosition": "CENTER",
+  "font": "body",
+  "blockClass": "home-text"
+}
+},
+"link#saibamais": {
+ "props": {
+  "href": "/sobre-nos",
+  "label": "Saiba mais sobre nós",
+  "blockClass": "button-saibamais",
+  "displayMode": "button",
+  "buttonProps": {"size": "large"}
+}
+}
+}

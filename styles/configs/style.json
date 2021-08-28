@@ -326,40 +326,40 @@
       "heading-1": {
         "fontFamily": "Open Sans Condensed, sans-serif",
         "fontWeight": "700",
-        "fontSize": "3rem",
+        "fontSize": "2.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Open Sans, sans-serif",
+        "fontFamily": "Open Sans Condensed, sans-serif",
         "fontWeight": "700",
-        "fontSize": "2.25rem",
+        "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Open Sans, sans-serif",
+        "fontFamily": "Open Sans Condensed, sans-serif",
         "fontWeight": "700",
-        "fontSize": "1.75rem",
+        "fontSize": "2rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily":"Open Sans, sans-serif",
-        "fontWeight": "normal",
+        "fontFamily":"Open Sans Condensed, sans-serif",
+        "fontWeight": "500",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Open Sans, sans-serif",
-        "fontWeight": "normal",
+        "fontFamily": "Open Sans Condensed, sans-serif",
+        "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily":"Open Sans, sans-serif",
+        "fontFamily":"Open Sans Condensed, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",

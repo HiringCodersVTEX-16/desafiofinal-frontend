@@ -26,7 +26,11 @@
       "width": "grow"
     }
   },
-
+  "flex-layout.col#spacer01": {
+    "props": {
+      "width": "15rem"
+    }
+  },
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",

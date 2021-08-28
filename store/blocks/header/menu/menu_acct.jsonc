@@ -1,0 +1,48 @@
+{
+ "vtex.menu@2.x:menu#about": {
+  "children":["menu-item#sobre", "menu-item#press","menu-item#career"],
+  "props":{"blockClass": "main-menu", "orientation":"vertical"}
+},
+"menu-item#sobre": {
+ "props": {
+   "id": "menu-item-home",
+   "type": "custom",
+   "highlight": false,
+   "blockClass": "sub-menu",
+   "itemProps": {
+     "type": "internal",
+     "href": "/sobre-nos",
+     "noFollow": false,
+     "tagTitle": "home",
+     "text": "Sobre nós"
+   }
+ }},
+ "menu-item#press": {
+  "props": {
+    "id": "menu-item-press",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "sub-menu",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "press",
+      "text": "Imprensa"
+    }
+  }},
+  "menu-item#career": {
+   "props": {
+     "id": "menu-item-carrer",
+     "type": "custom",
+     "highlight": false,
+     "blockClass": "sub-menu",
+     "itemProps": {
+       "type": "internal",
+       "href": "#",
+       "noFollow": false,
+       "tagTitle": "carrer",
+       "text": "Carreiras"
+     }
+   }}
+}

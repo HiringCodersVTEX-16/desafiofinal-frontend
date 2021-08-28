@@ -1,6 +1,6 @@
 {
   "store.home": { 
-    "blocks": ["flex-layout.row#about", "flex-layout.row#aboutdescriptmain" 
+    "blocks": ["flex-layout.row#slider", "flex-layout.row#hometext", "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
     ]
   }
 }

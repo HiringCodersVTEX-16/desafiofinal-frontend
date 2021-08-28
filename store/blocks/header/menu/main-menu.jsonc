@@ -1,0 +1,142 @@
+{
+ "vtex.menu@2.x:menu#mainmenu": {
+   "children":["menu-item#home","menu-item#about", "menu-item#whatwedo", "menu-item#blog", "menu-item#partners", "menu-item#product", "menu-item#contact"],
+   "props":{"blockClass": "main-menu"}
+ },
+ "menu-item#home": {
+  "props": {
+    "id": "menu-item-home",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "main-menu",
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": false,
+      "tagTitle": "home",
+      "text": "Início",
+      "blockClass": "main-menu"
+    }
+  }},
+  "menu-item#about": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "main-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "sobre-nos",
+        "noFollow": false,
+        "tagTitle": "about",
+        "text": "ACCT",
+        "blockClass": "main-menu",
+        "iconPosition": "right"
+      }
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 12,
+      //   "viewBox": "0 0 15 15",
+      //   "activeClassName": "rebel-pink",
+      //   "mutedClassName": "c-action-primary"
+      // }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#about"] 
+  },
+  "vtex.menu@2.x:submenu#about": {
+    "children": [
+      "vtex.menu@2.x:menu#about"
+    ]
+  },
+  /**/
+  "menu-item#whatwedo": {
+    "props": {
+      "id": "menu-item-whatwedo",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "main-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "whatwedo",
+        "text": "O que fazemos",
+        "blockClass": "main-menu",
+        "iconPosition": "right"
+      }
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 12,
+      //   "viewBox": "0 0 15 15",
+      //   "activeClassName": "rebel-pink",
+      //   "mutedClassName": "c-action-primary"
+      // }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#whatwedo"] 
+  },
+  "vtex.menu@2.x:submenu#whatwedo": {
+    "children": [
+      "vtex.menu@2.x:menu#whatwedo"
+    ]
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "main-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog",
+        "blockClass": "main-menu"
+      }
+    }},
+    "menu-item#partners": {
+      "props": {
+        "id": "menu-item-partners",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "main-menu",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "partners",
+          "text": "Parceiros",
+          "blockClass": "main-menu"
+        }
+      }},
+      "menu-item#product": {
+        "props": {
+          "id": "menu-item-product",
+          "type": "custom",
+          "highlight": false,
+          "blockClass": "main-menu",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "product",
+            "text": "Produtos",
+            "blockClass": "main-menu"
+          }
+        }},
+      "menu-item#contact": {
+        "props": {
+          "id": "menu-item-contact",
+          "type": "custom",
+          "highlight": false,
+          "blockClass": "main-menu",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "contact",
+            "text": "Contato",
+            "blockClass": "main-menu"
+          }
+        }}
+}
