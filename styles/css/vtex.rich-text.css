@@ -30,6 +30,14 @@
   font-weight: 700;
   font-family: 'Open Sans Condensed';
 }
+
+.paragraph--serviceshome {
+  color: #ffffff;
+}
+
+.container--serviceshome {
+  height: 400px;
+}
 /* -------------- ABOUT -------------- */
 /*Banner About */
 .paragraph--about-banner {
