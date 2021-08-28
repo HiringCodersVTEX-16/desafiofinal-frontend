@@ -8,5 +8,9 @@
 
 .socialNetworksContainer {
     width: 150px;
-    padding-inline: 18px;
+    padding-left: 16px;
+}
+
+.socialNetworkImage--linkedin {
+    border-radius: 8px;
 }

@@ -31,3 +31,7 @@
   margin-right: auto;
   padding-bottom: 80px;
 }
+
+.flexColChild--social-networks {
+  vertical-align: text-top;
+}

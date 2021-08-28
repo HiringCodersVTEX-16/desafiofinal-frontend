@@ -57,7 +57,10 @@
         "image#logo-acct",
         "social-networks",
         "rich-text#email"
-      ]
+      ],
+      "props": {
+        "blockClass": "social-networks"
+      }
     },
   
     "image#logo-acct": {
@@ -71,10 +74,11 @@
     "social-networks": {
       "props": {
         "socialNetworks": [
-          { "url": "https://www.linkedin.com/company/acctglobal/", "name": "LinkedIn" },
-          { "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA", "name": "YouTube" },
-          { "url": "https://www.instagram.com/acct.global/", "name": "Instagram" }
-        ]
+          { "url": "https://www.linkedin.com/company/acctglobal/", "name": "linkedin"},
+          { "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA", "name": "youtube" },
+          { "url": "https://www.instagram.com/acct.global/", "name": "instagram" }
+        ],
+        "shape": "circle"
       }
     },
   
@@ -91,7 +95,10 @@
         "rich-text#title-br",
         "rich-text#address-br",
         "rich-text#address-br1"
-      ]
+      ],
+      "props":{
+        "blockClass": "address"
+      }
     },
   
     "rich-text#title-br": {
@@ -119,7 +126,11 @@
       "children": [
         "rich-text#title-span",
         "rich-text#address-span"
-      ]
+      ],
+      "props": {
+        "blockClass": "address",
+        "verticalAlign": "top"
+      }
     },
   
     "rich-text#title-span": {
@@ -140,7 +151,11 @@
       "children": [
         "rich-text#title-usa",
         "rich-text#address-usa"
-      ]
+      ],
+      "props": {
+        "blockClass": "address",
+        "verticalAlign": "top"
+      }
     },
   
     "rich-text#title-usa": {
