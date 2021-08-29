@@ -22,7 +22,7 @@
    "showNavigationArrows": "desktopOnly",
    "blockClass": "carousel"
  },
- "children": ["image#01", "image#02"]
+ "children": ["image#01", "image#02", "image#03"]
 },
 
 "image#01": {
@@ -36,5 +36,11 @@
    "src": "assets/img/slider-home-product.png",
    "link": "#"
  }
-}
+},
+"image#03": {
+  "props": {
+    "src": "assets/img/slider-home-engineering_1.png",
+    "link": "#"
+  }
+ }
 }

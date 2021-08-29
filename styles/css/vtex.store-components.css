@@ -7,7 +7,12 @@
   width: 100%;
 }
 
-/* Product*/
+/* Contact */
+.imageElement--contact-image {
+  border-bottom: 1rem solid #fcc200;
+  width: 17rem;
+}
+/* Product */
 .discountInsideContainer {
   background-color: #5974c7;
 }

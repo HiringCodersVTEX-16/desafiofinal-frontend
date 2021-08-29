@@ -1,0 +1,27 @@
+{
+ "flex-layout.row#contactbanner":{
+  "children": ["flex-layout.col#contact01", "flex-layout.col#contact02"],
+  "props": {"blockClass": "contact-banner",
+    "preventHorizontalStrech": true
+ }
+ },
+  "flex-layout.col#contact01":{
+    "children": ["rich-text#contact"],
+    "props": {"blockClass": "contact-banner", 
+    "preventHorizontalStrech": true}
+  },
+  "flex-layout.col#contact02":{
+    "children": [  "rich-text#dot"   ],
+    "props": {"blockClass": "about-bannerinner  "}
+  },
+ 
+  "rich-text#contact": { 
+    "props": { 
+      "text": "Contato",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "contact-banner"
+    }
+  }
+}

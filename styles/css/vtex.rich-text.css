@@ -47,7 +47,7 @@
   margin-top: 25px;
 }
 
-.paragraph--about-dot {
+.paragraph--blinkin-dot {
   animation: blinkingText 1s step-start infinite;
 }
 
@@ -75,7 +75,7 @@
   flex-flow: row-reverse;
 }
 
-.container--about-dot {
+.container--blinkin-dot {
   height: 210px;
   justify-content: left;
   position: relative;
@@ -94,7 +94,33 @@
 .wrapper--about-descriptcontent {
   padding-right: 35px;
 }
-/* Footer */
+
+/* -------------- CONTACT -------------- */
+.paragraph--contact-banner {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  margin-top: 25px;
+}
+
+.container--contact-banner {
+  height: 230px;
+  justify-content: left;
+  flex-flow: row-reverse;
+}
+
+.container--contactgridtitle {
+  width: 17rem;
+  margin-top: -2rem;
+}
+
+.container--contactgrid {
+  width: 17rem;
+  margin-top: -2rem;
+  color: #717786;
+}
+
+/* -------------- FOOTER -------------- */
 /*Link do E-mail - Footer */
 .container--email {
   width: 150px;
