@@ -95,6 +95,15 @@
   padding-right: 35px;
 }
 
+/* Trusted by*/
+.wrapper--trusted-by-title {
+  background: linear-gradient(to right, #000000 92%, #fcc200 0);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* -------------- CONTACT -------------- */
 .paragraph--contact-banner {
   color: #ffffff;

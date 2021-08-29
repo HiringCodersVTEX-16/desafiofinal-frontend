@@ -1,0 +1,7 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
+    ]
+  }
+}
