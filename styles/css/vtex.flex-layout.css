@@ -62,7 +62,7 @@
   width: 100%;
 }
 
-/* Banner Inner*/
+/* About Inner Banner*/
 .flexRow--about-banner {
   background-image: url('assets/img/cover-about-us.jpg');
   background-position: center center;
@@ -74,6 +74,43 @@
 
 .flexRowContent--about-banner {
   width: 38%;
+}
+
+/* Contact Inner Banner*/
+.flexRow--contact-banner {
+  background-image: url('assets/img/cover-contact.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 232px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--contact-banner {
+  width: 38%;
+}
+
+.flexRowContent--contact-grid {
+  padding: 10rem 0 0;
+}
+
+.flexCol--contact-grid01 {
+  text-align: right;
+  height: fit-content;
+}
+
+.flexColChild--contact-grid01 {
+  text-align: -webkit-right;
+}
+
+.flexCol--contact-grid02 {
+  align-items: center;
+  height: fit-content;
+}
+
+.flexCol--contact-grid03 {
+  text-align: left;
+  height: fit-content;
 }
 
 /* About Description */

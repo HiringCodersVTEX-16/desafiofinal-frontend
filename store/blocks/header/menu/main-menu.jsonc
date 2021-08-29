@@ -132,7 +132,7 @@
           "blockClass": "main-menu",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/entre-em-contato",
             "noFollow": false,
             "tagTitle": "contact",
             "text": "Contato",

@@ -1,66 +1,101 @@
 {
  "store.custom#contact": { 
    "blocks": [
-     "flex-layout.row#contact", "flex-layout.row#contactgrid"
+     "flex-layout.row#contactbanner", "flex-layout.row#contactgrid"
    ]
 },
-"flex-layout.row#contact":{
- "children": ["flex-layout.col#contact01", "flex-layout.col#contact02"],
- "props": {"blockClass": "contact-banner",
-   "preventHorizontalStrech": true
-}
-},
- "flex-layout.col#contact01":{
-   "children": ["rich-text#contact"],
-   "props": {"blockClass": "contact-banner", 
-   "preventHorizontalStrech": true}
- },
- "flex-layout.col#contact02":{
-   "children": [  "rich-text#dot"   ],
-   "props": {"blockClass": "about-bannerinner  ", 
-   "preventHorizontalStrech": true}
- },
-
- "rich-text#contact": { 
-   "props": { 
-     "text": "Contato",
-     "textAlignment": "CENTER",
-     "textPosition": "CENTER",
-     "font": "t-heading-1",
-     "blockClass": "inner-banner"
-   }
- },
  "flex-layout.row#contactgrid":{
-    "children": ["flex-layout.col#contactgrid01", "flex-layout.col#contactgrid02", "flex-layout.col#contactgrid03"]
+    "children": ["flex-layout.col#contactgrid01", "flex-layout.col#contactgrid02", "flex-layout.col#contactgrid03"],
+    "props":{"blockClass": "contact-grid"}
  },
+ /*Grid 01*/
  "flex-layout.col#contactgrid01":{
-    "children":["image#contactgrid01"]
- },
- "flex-layout.col#contactgrid02":{
-   "children":["image#contactgrid02"]
- },
- "flex-layout.col#contactgrid03":{
-   "children":["image#contactgrid03"]
+    "children":["image#contactgrid01", "rich-text#contactgrid01", "rich-text#contactgrid01B"],
+    "props":{"blockClass": "contact-grid01", "preventVerticalStrech": true}
  },
  "image#contactgrid01": {
-   "props": {
-     "src": "assets/img/contact-saopaulo.jpg",
-     "maxHeight": 370,
-     "blockClass": "about-image"
-  }
-},
-"image#contactgrid02": {
-  "props": {
-    "src": "assets/img/contact-newyork.jpg",
-    "maxHeight": 370,
-    "blockClass": "about-image"
-  }
-},
-"image#contactgrid03": {
   "props": {
     "src": "assets/img/contact-saopaulo.jpg",
     "maxHeight": 370,
-    "blockClass": "about-image"
+    "blockClass": "contact-image"
+ }
+},
+"rich-text#contactgrid01":{
+  "props": { 
+    "text": "São Paulo",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "font": "t-heading-3",
+    "blockClass": "contactgridtitle"
+  }
+},
+"rich-text#contactgrid01B":{
+  "props": { 
+    "text": "Al. Professor Lucas Nogueira Garcez, 1395 <br/>Atibaia/SP<br/><br/>Av. das Nações Unidas,<br/>11.857 - 8ºA - Brooklin<br/>São Paulo/SP",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "font": "body",
+    "blockClass": "contactgrid"
+  }
+},
+/*Grid 02*/
+ "flex-layout.col#contactgrid02":{
+   "children":["image#contactgrid02", "rich-text#contactgrid02", "rich-text#contactgrid02B"],
+   "props":{"blockClass": "contact-grid02", "preventVerticalStrech": true}
+ },
+ "image#contactgrid02": {
+  "props": {
+    "src": "assets/img/contact-newyork.jpg",
+    "maxHeight": 370,
+    "blockClass": "contact-image"
+  }
+ },
+ "rich-text#contactgrid02":{
+  "props": { 
+    "text": "New York",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "font": "t-heading-3",
+    "blockClass": "contactgridtitle"
+  }
+},
+"rich-text#contactgrid02B":{
+  "props": { 
+    "text":"12 East 49th Street NY<br/>10017",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "font": "body",
+    "blockClass": "contactgrid"
+  }
+},
+ /*Grid 03*/
+ "flex-layout.col#contactgrid03":{
+   "children":["image#contactgrid03", "rich-text#contactgrid03", "rich-text#contactgrid03B"],
+   "props":{"blockClass": "contact-grid03", "preventVerticalStrech": true}
+ },
+ "image#contactgrid03": {
+  "props": {
+    "src": "assets/img/contact-saopaulo.jpg",
+    "maxHeight": 370,
+    "blockClass": "contact-image"
+  }
+},
+"rich-text#contactgrid03":{
+ "props": { 
+   "text": "Barcelona",
+   "textAlignment": "LEFT",
+   "textPosition": "LEFT",
+   "font": "t-heading-3",
+   "blockClass": "contactgridtitle"
+ }
+},
+"rich-text#contactgrid03B":{
+  "props": { 
+    "text":"Carrer Provença, 339 -<br/>08037",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "font": "body",
+    "blockClass": "contactgrid"
   }
 }
 }
