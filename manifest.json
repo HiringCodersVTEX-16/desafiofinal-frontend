@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202116",
-  "name": "home",
+  "name": "frontend",
   "version": "0.1.1",
   "builders": {
     "assets": "0.x",

@@ -1,7 +1,12 @@
 {
-  "store.custom#sobre": { 
+  "store.custom#sobre": {
     "blocks": [
-      "flex-layout.row#about", "flex-layout.row#aboutdescriptmain"
+      "flex-layout.row#about",
+      "flex-layout.row#aboutdescriptmain",
+      // Blocos do Trusted by
+      "flex-layout.row#trusted-by-title",
+      "flex-layout.row#brandsIcons01",
+      "flex-layout.row#brandsIcons02"
     ]
-}
+  }
 }

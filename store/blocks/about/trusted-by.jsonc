@@ -1,0 +1,104 @@
+{
+  "flex-layout.row#trusted-by-title": {
+    "children": ["rich-text#trusted-by"]
+  },
+  "rich-text#trusted-by": {
+    "props": {
+      "text": "**Trusted by_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "trusted-by-title"
+    }
+  },
+
+  "flex-layout.row#trusted-by-icons": {
+    "children": [
+      "flex-layout.row#brandsIcons01",
+      "flex-layout.row#brandsIcons02"
+    ],
+    "props": { "blockClass": "trusted-by-icons" }
+  },
+
+  "flex-layout.row#brandsIcons01": {
+    "children": [
+      "image#img-carrefour",
+      "image#img-samsung",
+      "image#img-abInBev",
+      "image#img-stanley-black-decker",
+      "image#img-motorola"
+    ],
+    "props": { "blockClass": "trusted-by-icons01" }
+  },
+  "flex-layout.row#brandsIcons02": {
+    "children": [
+      "image#img-unilever",
+      "image#img-whirlpool",
+      "image#img-universal",
+      "image#img-decathlon",
+      "image#img-cea"
+    ],
+    "props": { "blockClass": "trusted-by-icons02" }
+  },
+
+  "image#img-carrefour": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_carrefour.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-samsung": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_samsung.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-abInBev": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_abinbev.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-stanley-black-decker": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_stanley-black-decker.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-motorola": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_motorola.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-unilever": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_unilever.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-whirlpool": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_whirlpool.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-universal": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_universal-mg.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-decathlon": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_decathlon.svg",
+      "blockClass": "brand-icon-image"
+    }
+  },
+  "image#img-cea": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/09/clients_cea.svg",
+      "blockClass": "brand-icon-image"
+    }
+  }
+}
