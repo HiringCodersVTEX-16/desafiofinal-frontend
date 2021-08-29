@@ -23,6 +23,7 @@
   -webkit-transform: scale(1);
   transform: scale(1);
   filter: grayscale(0%);
+}
 
 /* Product*/
 .discountInsideContainer {
