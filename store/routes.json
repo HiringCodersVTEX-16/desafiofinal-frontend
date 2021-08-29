@@ -4,5 +4,8 @@
  },
  "store.custom#contact":{
    "path": "/entre-em-contato"
- }
+ },
+ "store.custom#product":{
+  "path": "/produtos"
+}
 }

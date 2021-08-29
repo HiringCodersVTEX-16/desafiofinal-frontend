@@ -1,7 +1,15 @@
 {
   "store.home": { 
-    "blocks": ["flex-layout.row#slider", "flex-layout.row#hometext", "flex-layout.row#serviceshome", "flex-layout.row#serviceshomeB"
-    , "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
+    "blocks": ["flex-layout.row#slider", 
+      "flex-layout.row#hometext",  
+      // Blocos do Trusted by
+      "flex-layout.row#trusted-by-title",
+      "flex-layout.row#brandsIcons01",
+      "flex-layout.row#brandsIcons02",
+      // Blocos Serviços
+      "flex-layout.row#serviceshome", "flex-layout.row#serviceshomeB",
+      // Blocos Loja
+     "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
     ]
   }
 }
