@@ -3,6 +3,8 @@
     "blocks": [
       "flex-layout.row#about", 
       "flex-layout.row#aboutdescriptmain",
+      // Bloco Why ACCT
+      "flex-layout.row#virtues",
       // Blocos do Trusted by
       "flex-layout.row#trusted-by-title",
       "flex-layout.row#brandsIcons01",

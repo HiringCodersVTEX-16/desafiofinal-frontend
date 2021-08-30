@@ -1,7 +1,7 @@
 /* -------------- HOME ----------------*/
 
 .wrapper--home--shoptittle {
-  background: linear-gradient(to right, #000000 41%, #fcc200 0);
+  background: linear-gradient(to right, #000000 50%, #fcc200 0);
   padding-top: 90px;
   width: 100%;
   -webkit-background-clip: text;
@@ -95,6 +95,27 @@
   padding-right: 35px;
 }
 
+/* Por que a ACCT?*/
+.container--textimages {
+  font-size: 14px;
+  font-family: 'Open Sans Condensed';
+  text-transform: initial;
+  letter-spacing: 0px;
+  color: #717786;
+}
+
+.container--virtuesdescripttitle {
+  margin-bottom: 45px;
+}
+
+.wrapper--virtuesdescripttitle {
+  background: linear-gradient(to right, #000000 94.5%, #fcc200 0);
+  padding-top: 90px;
+  padding-bottom: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Trusted by*/
 .wrapper--trusted-by-title {
   background: linear-gradient(to right, #000000 92%, #fcc200 0);
@@ -102,6 +123,20 @@
   padding-bottom: 50px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* -------------- PRODUTOS -------------- */
+.paragraph--shop-banner {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  margin-top: 25px;
+}
+
+.container--shop-banner {
+  height: 230px;
+  justify-content: left;
+  flex-flow: row-reverse;
 }
 
 /* -------------- CONTACT -------------- */
