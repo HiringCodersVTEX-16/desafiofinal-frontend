@@ -164,6 +164,31 @@
   color: #717786;
 }
 
+/* -------------- PARTNERS -------------- */
+.paragraph--partners-banner {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  margin-top: 25px;
+}
+
+.container--partners-banner {
+  height: 230px;
+  justify-content: left;
+  flex-flow: row-reverse;
+}
+
+.container--partnersgridtitle {
+  width: 17rem;
+  margin-top: -2rem;
+}
+
+.container--partnersgrid {
+  width: 17rem;
+  margin-top: -2rem;
+  color: #717786;
+}
+
 /* -------------- FOOTER -------------- */
 /*Link do E-mail - Footer */
 .container--email {

@@ -168,6 +168,53 @@
   width: 500px;
 }
 
+/*  ---------- Partners  ----------*/
+/* Partners Inner Banner*/
+.flexRow--partners-banner {
+  background-image: url('assets/img/cover-partners.png');
+  background-position: center center;
+  background-size: cover;
+  height: 232px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--partners-banner {
+  width: 38%;
+}
+
+.flexRowContent--partners-grid {
+  padding: 10rem 0 0;
+}
+
+.flexCol--partners-grid01 {
+  text-align: right;
+  height: fit-content;
+}
+
+.flexColChild--partners-grid01 {
+  text-align: -webkit-right;
+}
+
+.flexCol--partners-grid02 {
+  align-items: center;
+  height: fit-content;
+}
+
+.flexCol--partners-grid03 {
+  text-align: left;
+  height: fit-content;
+}
+
+.flexCol--partners-grid04 {
+  text-align: left;
+  height: fit-content;
+}
+
+.flexColChild--productside {
+  width: 500px;
+}
+
 /*  ---------- Footer  ---------- */
 .flexCol--social-networks {
   margin-left: 2rem;

@@ -46,9 +46,16 @@
   border-bottom: 1rem solid #fcc200;
   width: 17rem;
 }
+
 /* Product */
 .discountInsideContainer {
   background-color: #5974c7;
+}
+
+/* Partners */
+.imageElement--partners-image {
+  height: 180px;
+  width: 250px;
 }
 
 /*Footer*/

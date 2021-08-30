@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#partnersbanner": {
+    "children": ["flex-layout.col#partners01", "flex-layout.col#partners02"],
+    "props": {
+      "blockClass": "partners-banner",
+      "preventHorizontalStrech": true
+    }
+  },
+  "flex-layout.col#partners01": {
+    "children": ["rich-text#partners"],
+    "props": {
+      "blockClass": "partners-banner",
+      "preventHorizontalStrech": true
+    }
+  },
+  "flex-layout.col#partners02": {
+    "children": ["rich-text#dot"],
+    "props": { "blockClass": "about-bannerinner  " }
+  },
+
+  "rich-text#partners": {
+    "props": {
+      "text": "Parceiros",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "partners-banner"
+    }
+  }
+}

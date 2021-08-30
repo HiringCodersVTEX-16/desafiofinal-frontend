@@ -1,0 +1,68 @@
+{
+  "store.custom#partners": {
+    "blocks": ["flex-layout.row#partnersbanner", "flex-layout.row#partnersgrid"]
+  },
+  "flex-layout.row#partnersgrid": {
+    "children": [
+      "flex-layout.col#partnersgrid01",
+      "flex-layout.col#partnersgrid02",
+      "flex-layout.col#partnersgrid03",
+      "flex-layout.col#partnersgrid04"
+    ],
+    "props": { "blockClass": "partners-grid" }
+  },
+  /*Grid 01*/
+  "flex-layout.col#partnersgrid01": {
+    "children": ["image#partnersgrid01"],
+    "props": { "blockClass": "partners-grid01", "preventVerticalStrech": true }
+  },
+  "image#partnersgrid01": {
+    "props": {
+      "src": "assets/img/premium_partner_vtex.png",
+      // "maxHeight": 250,
+      "blockClass": "partners-image"
+    }
+  },
+
+  /*Grid 02*/
+  "flex-layout.col#partnersgrid02": {
+    "children": ["image#partnersgrid02"],
+    "props": { "blockClass": "partners-grid02", "preventVerticalStrech": true }
+  },
+  "image#partnersgrid02": {
+    "props": {
+      "src": "assets/img/premium_partner_digital-river.png",
+      // "maxHeight": 250,
+      "blockClass": "partners-image"
+    }
+  },
+
+  /*Grid 03*/
+  "flex-layout.col#partnersgrid03": {
+    "children": ["image#partnersgrid03"],
+    "props": { "blockClass": "partners-grid03", "preventVerticalStrech": true }
+  },
+  "image#partnersgrid03": {
+    "props": {
+      "src": "assets/img/premium_partner_clearsale.png",
+      // "maxHeight": 250,
+      "blockClass": "partners-image"
+    }
+  },
+
+  /*Grid 04*/
+  "flex-layout.col#partnersgrid04": {
+    "children": ["image#partnersgrid04"],
+    "props": { "blockClass": "partners-grid04", "preventVerticalStrech": true }
+  },
+  "image#partnersgrid04": {
+    "props": {
+      "src": "assets/img/premium_partner_linx-ok-300x215.png",
+      // "maxHeight": 250,
+      // "height": 180,
+      // "width": 230,
+      // "margin-left": -50
+      "blockClass": "partners-image"
+    }
+  }
+}
