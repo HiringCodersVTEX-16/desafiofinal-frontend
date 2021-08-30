@@ -54,10 +54,36 @@
   padding-right: 35px;
 }
 
+/* Bloco Time */
+.paragraph--team-title {
+  font-family: "Open Sans Condensed";
+  font-weight: 500;
+  color: #040404;
+  margin: 0.75rem 0 0.3rem 0;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.paragraph--team-dot {
+  color: #fcc200;
+  font-size: 1.2rem;
+  padding-left: 2px;
+  margin-top: 22px;
+}
+
+.paragraph--team-description {
+  background: linear-gradient(to right, #fcc200 38%, #000000 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
 /*Link do E-mail - Footer */
 .container--email {
   width: 150px;
   vertical-align: top;
+  margin-top: -30px;
 }
 
 .link {

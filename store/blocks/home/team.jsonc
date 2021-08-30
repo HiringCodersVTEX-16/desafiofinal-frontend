@@ -1,0 +1,110 @@
+{
+    "store.home": { 
+      "blocks": [
+        "flex-layout.row#team",
+        "rich-text#description",
+        "slider-layout#team"
+      ]
+    },
+
+    "flex-layout.row#team":{
+      "children": ["flex-layout.col#team-title", "flex-layout.col#team-title1"],
+      "props": {"blockClass": "team-title-row",
+        "preventHorizontalStrech": true
+     }
+    },
+    "flex-layout.col#team-title":{
+        "children": ["rich-text#title"],
+        "props": {"blockClass": "team-title", 
+        "preventHorizontalStrech": true}
+    },
+      
+    "flex-layout.col#team-title1":{
+        "children": [  "rich-text#dot"   ],
+        "props": {"blockClass": "team-dot", 
+        "preventHorizontalStrech": true}
+    },
+    
+    "rich-text#title": { 
+      "props": { 
+        "text": "Time",
+        "textAlignment": "RIGHT",
+        "textPosition": "RIGHT",
+        "font": "t-heading-3",
+        "blockClass": "team-title"
+      }
+    },
+
+    "rich-text#dot": { 
+      "props": { 
+        "text": "_",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "t-heading-3",
+        "blockClass": "team-dot"
+      }
+    },
+
+    "rich-text#description": {
+      "props": {
+        "text": "A ACCT tem uma equipe interna de alto desempenho com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "team-description"
+      }
+    },
+    
+    //Team Carousel
+    "slider-layout#team": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "usePagination": true,
+          "scrollByPage": true,
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+          },
+          "blockClass": "carousel-team"
+        },
+        "children": [
+          "image#team-1", 
+          "image#team-2", 
+          "image#team-3", 
+          "image#team-4"
+        ]
+      },
+    
+      "image#team-1": {
+        "props": {
+          "src": "assets/img/time01.png",
+          "blockClass": "team-member"
+        }
+      },
+  
+      "image#team-2": {
+        "props": {
+          "src": "assets/img/time02.png",
+          "blockClass": "team-member"
+        }
+      },
+  
+      "image#team-3": {
+        "props": {
+          "src": "assets/img/time03.png",
+          "blockClass": "team-member"
+        }
+      },
+
+      "image#team-4": {
+        "props": {
+          "src": "assets/img/time03.png",
+          "blockClass": "team-member"
+        }
+      }
+  }
