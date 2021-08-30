@@ -32,14 +32,13 @@
         "text": "ACCT",
         "blockClass": "main-menu",
         "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "viewBox": "0 0 15 15",
+        "mutedClassName": "c-action-primary"
       }
-      // "iconProps": {
-      //   "id": "nav-caret--down",
-      //   "size": 12,
-      //   "viewBox": "0 0 15 15",
-      //   "activeClassName": "rebel-pink",
-      //   "mutedClassName": "c-action-primary"
-      // }
     },
     "blocks": ["vtex.menu@2.x:submenu#about"] 
   },
@@ -63,14 +62,13 @@
         "text": "O que fazemos",
         "blockClass": "main-menu",
         "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "viewBox": "0 0 15 15",
+        "mutedClassName": "c-action-primary"
       }
-      // "iconProps": {
-      //   "id": "nav-caret--down",
-      //   "size": 12,
-      //   "viewBox": "0 0 15 15",
-      //   "activeClassName": "rebel-pink",
-      //   "mutedClassName": "c-action-primary"
-      // }
     },
     "blocks": ["vtex.menu@2.x:submenu#whatwedo"] 
   },
