@@ -1,0 +1,33 @@
+{
+ "flex-layout.row#bannershop":{
+    "children": [
+    "flex-layout.col#shopinner01", 
+    "flex-layout.col#shopinner02"
+  ],
+ "props": {
+  "blockClass": 
+    "shop-banner",
+  "preventHorizontalStrech": true
+}
+},
+ "flex-layout.col#shopinner01":{
+    "children": ["rich-text#shop"],
+    "props": {"blockClass": "about-bannerinner  ", 
+    "preventHorizontalStrech": true}
+ },
+ "flex-layout.col#shopinner02":{
+   "children": [  "rich-text#dot"   ],
+   "props": {"blockClass": "about-bannerinner  ", 
+   "preventHorizontalStrech": true}
+ },
+
+ "rich-text#shop": { 
+   "props": { 
+     "text": "Loja",
+     "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "font": "t-heading-1",
+     "blockClass": "shop-banner"
+   }
+ }
+}

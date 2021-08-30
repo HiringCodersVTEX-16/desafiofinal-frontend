@@ -1,7 +1,51 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
+      "flex-layout.row#bannershop",
+      "flex-layout.row#mainproduct",
+      "flex-layout.row#shoptittle", 
+      "search-result-layout.customQuery#produtos" 
     ]
+  },
+  "flex-layout.row#mainproduct":{
+    "props": {
+      "blockClass": "main-product" ,
+      "marginTop": 20
+    },
+    "children": [
+      "product-images", 
+      "flex-layout.col#productside"
+    ]
+  },
+  "product-images":{
+    "props": {
+      "displayThumbnailsArrows": true, 
+      "showNavigationArrows": true,
+      "blockClass": "main-product"
+    } 
+  },
+  "flex-layout.col#productside":{
+    "children": [
+      "flex-layout.col#productmaininfo",
+      "buy-button"
+    ],
+    "props":{
+      "blockClass": "productside"}
+  },
+  "flex-layout.col#productmaininfo":{
+    "children": [
+      "vtex.store-components:product-name", 
+      "product-price", 
+      "rich-text#frete"],
+    "props":{
+      "blockClass": "productinfo"
+    }
+  },
+  "rich-text#frete":{
+    "props": {
+      "textPosition": "LEFT",
+      "text": "FRETE GRÁTIS",
+      "blockClass": "fretegratis"
+    }
   }
 }

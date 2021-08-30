@@ -1,7 +1,9 @@
 {
   "store.custom#product": {
     "children": [
-      "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
+      "flex-layout.row#bannershop", 
+      "flex-layout.row#shoptittle", 
+      "search-result-layout.customQuery#produtos" 
     ]
   }
 }

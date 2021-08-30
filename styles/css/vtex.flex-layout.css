@@ -1,4 +1,4 @@
-/* Header */
+/* ---------- HEADER  ----------*/
 .flexColChild--logo-box {
   padding: 1.55rem 0rem 1.4rem 0.6rem;
 }
@@ -13,7 +13,7 @@
   background-color: #ffffff;
 }
 
-/* Home*/
+/*  ---------- HOME  ---------- */
 .flexRow--container-crrossel {
   width: 100%;
   object-fit: cover;
@@ -62,7 +62,7 @@
   width: 100%;
 }
 
-/* ABOUT*/
+/*  ---------- ABOUT  ----------*/
 /* About Inner Banner*/
 .flexRow--about-banner {
   background-image: url('assets/img/cover-about-us.jpg');
@@ -77,6 +77,23 @@
   width: 38%;
 }
 
+/* About Description */
+.flexRow--about-descript {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55px;
+}
+
+/* Why ACCT?*/
+.flexColChild--virtues {
+  align-self: center;
+}
+
+.flexRow--virtues-descript {
+  padding: 0px 200px 145px 200px;
+}
+
 /*Trusted By*/
 .flexRow--trusted-by-icons01,
 .flexRow--trusted-by-icons02 {
@@ -87,7 +104,29 @@
   margin-bottom: 5rem;
 }
 
-/*CONTACT*/
+/*  ---------- PRODUTOS  ----------*/
+.flexRow--shop-banner {
+  background-image: url('assets/img/cover-fashion.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 232px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--shop-banner {
+  width: 38%;
+}
+
+.flexRow--main-product {
+  padding: 5rem;
+}
+
+.flexRowContent--main-product {
+  align-items: center;
+}
+
+/*  ---------- CONTACT  ----------*/
 /* Contact Inner Banner*/
 .flexRow--contact-banner {
   background-image: url('assets/img/cover-contact.jpg');
@@ -125,15 +164,11 @@
   height: fit-content;
 }
 
-/* About Description */
-.flexRow--about-descript {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 55px;
+.flexColChild--productside {
+  width: 500px;
 }
 
-/* Footer */
+/*  ---------- Footer  ---------- */
 .flexCol--social-networks {
   margin-left: 2rem;
 }

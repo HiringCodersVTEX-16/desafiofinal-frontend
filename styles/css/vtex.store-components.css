@@ -7,6 +7,22 @@
   width: 100%;
 }
 
+/* Por que a ACCT? */
+.imageElement--why-icon-image {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  height: 75px;
+  width: 75px;
+}
+
+.imageElement--why-icon-image:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  filter: grayscale(0%);
+}
+
 /* Trusted by image */
 .imageElement--brand-icon-image {
   -webkit-transition: all 0.7s ease;
@@ -38,4 +54,13 @@
 /*Footer*/
 .imageElement--selo-gptw {
   padding-left: 110px;
+}
+
+/*Product*/
+.productImageTag--main-product {
+  max-width: 350px;
+}
+
+.productImagesGallerySwiperContainer--main-product {
+  text-align: center;
 }

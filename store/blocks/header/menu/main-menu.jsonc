@@ -117,7 +117,7 @@
           "blockClass": "main-menu",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/produtos",
             "noFollow": false,
             "tagTitle": "product",
             "text": "Produtos",
