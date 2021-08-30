@@ -1,0 +1,16 @@
+/* Por que a ACCT? */
+.imageElement--why-icon-image {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  
+    height: 75px;
+    width: 75px;
+  }
+  
+  .imageElement--why-icon-image:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    filter: grayscale(0%);
+  }

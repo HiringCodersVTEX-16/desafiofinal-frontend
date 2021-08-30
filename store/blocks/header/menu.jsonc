@@ -1,0 +1,101 @@
+{
+ "vtex.menu@2.x:menu#menuacct": {
+ "props": {
+  "blockClass": "menu",
+   "items": [
+     {
+       "id": "menu-item-home",
+       "type": "custom",
+       "iconId": null,
+       "highlight": false,
+       "itemProps": {
+         "type": "internal",
+         "href": "#",
+         "noFollow": false,
+         "tagTitle": "home",
+         "text": "Início"
+       }
+     },
+     {
+       "id": "menu-item-about-us",
+       "type": "custom",
+       "iconId": null,
+       "highlight": false,
+       "itemProps": {
+         "type": "internal",
+         "href": "/about-us",
+         "noFollow": false,
+         "tagTitle": "about",
+         "text": "ACCT"
+       }
+     },
+     {
+      "id": "menu-item-what-we-do",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/what-we-do",
+        "noFollow": false,
+        "tagTitle": "whatdo",
+        "text": "O que fazemos"
+      }
+    },
+    {
+     "id": "menu-item-blog",
+     "type": "custom",
+     "iconId": null,
+     "highlight": false,
+     "itemProps": {
+       "type": "internal",
+       "href": "/blog",
+       "noFollow": false,
+       "tagTitle": "blog",
+       "text": "Blog"
+     }
+   },
+   {
+    "id": "menu-item-partners",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/partners",
+      "noFollow": false,
+      "tagTitle": "partners",
+      "text": "Parceiros"
+    }
+  },
+  
+  {
+   "id": "menu-item-products",
+   "type": "custom",
+   "iconId": null,
+   "highlight": false,
+   "itemProps": {
+     "type": "internal",
+     "href": "/products",
+     "noFollow": false,
+     "tagTitle": "products",
+     "text": "Produtos"
+   }
+ },
+  {
+   "id": "menu-item-contato",
+   "type": "custom",
+   "iconId": null,
+   "highlight": false,
+   "itemProps": {
+     "type": "internal",
+     "href": "/contact",
+     "noFollow": false,
+     "tagTitle": "contact",
+     "text": "Contato"
+   }
+ }
+   ]
+ }
+}
+}

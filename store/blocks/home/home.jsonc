@@ -1,0 +1,11 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#about",
+      "rich-text",
+      "flex-layout.row#virtues"
+    ]
+}
+}
+
+  
