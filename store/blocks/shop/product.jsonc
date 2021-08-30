@@ -35,17 +35,9 @@
   "flex-layout.col#productmaininfo":{
     "children": [
       "vtex.store-components:product-name", 
-      "product-price", 
-      "rich-text#frete"],
+      "product-price"],
     "props":{
       "blockClass": "productinfo"
-    }
-  },
-  "rich-text#frete":{
-    "props": {
-      "textPosition": "LEFT",
-      "text": "FRETE GRÁTIS",
-      "blockClass": "fretegratis"
     }
   }
 }

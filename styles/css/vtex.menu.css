@@ -1,8 +1,16 @@
-/* .styledLinkContent--languages {
-  text-transform: uppercase;
-  font-size: 15px;
-  padding-bottom: 10px;
-} */
+.styledLinkIcon--main-menu {
+  display: inline-block;
+  opacity: 50%;
+  cursor: pointer;
+  width: 1.5rem;
+  text-align: right;
+  color: black;
+}
+
+.styledLinkIcon--main-menu:hover {
+  opacity: 100%;
+  color: #fcc200;
+}
 
 .styledLinkContent--languages:hover {
   color: #fcc200;
@@ -34,4 +42,8 @@
 
 .menuItem--languages {
   width: 1rem;
+}
+
+.menuItem--main-menu-isOpen {
+  color: #fcc200;
 }
