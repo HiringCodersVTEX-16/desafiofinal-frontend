@@ -7,5 +7,8 @@
  },
  "store.custom#product":{
   "path": "/produtos"
+},
+"store.custom#leads":{
+  "path": "/leads"
 }
 }
