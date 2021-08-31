@@ -10,5 +10,8 @@
 },
 "store.custom#leads":{
   "path": "/leads"
+},
+"store.custom#partners": {
+  "path": "/parceiros"
 }
 }

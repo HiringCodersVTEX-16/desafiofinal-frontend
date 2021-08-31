@@ -172,3 +172,9 @@
 .flexCol--social-networks {
   margin-left: 2rem;
 }
+
+.flexRow--leadsform {
+  max-width: 70vw;
+  padding-top: 5rem;
+  margin: auto;
+}
