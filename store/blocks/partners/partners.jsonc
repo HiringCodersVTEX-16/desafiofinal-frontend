@@ -1,6 +1,10 @@
 {
   "store.custom#partners": {
-    "blocks": ["flex-layout.row#partnersbanner", "flex-layout.row#partnersgrid"]
+    "blocks": [
+      "flex-layout.row#partnersbanner",
+      "flex-layout.row#partnersgrid",
+      "tab-layout#partners"
+    ]
   },
   "flex-layout.row#partnersgrid": {
     "children": [
@@ -19,7 +23,6 @@
   "image#partnersgrid01": {
     "props": {
       "src": "assets/img/premium_partner_vtex.png",
-      // "maxHeight": 250,
       "blockClass": "partners-image"
     }
   },
@@ -32,7 +35,6 @@
   "image#partnersgrid02": {
     "props": {
       "src": "assets/img/premium_partner_digital-river.png",
-      // "maxHeight": 250,
       "blockClass": "partners-image"
     }
   },
@@ -45,7 +47,6 @@
   "image#partnersgrid03": {
     "props": {
       "src": "assets/img/premium_partner_clearsale.png",
-      // "maxHeight": 250,
       "blockClass": "partners-image"
     }
   },
@@ -58,10 +59,6 @@
   "image#partnersgrid04": {
     "props": {
       "src": "assets/img/premium_partner_linx-ok-300x215.png",
-      // "maxHeight": 250,
-      // "height": 180,
-      // "width": 230,
-      // "margin-left": -50
       "blockClass": "partners-image"
     }
   }

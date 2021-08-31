@@ -1,0 +1,520 @@
+{
+  "tab-layout#partners": {
+    "props": {
+      "blockClass": "partners-tabs",
+      "defaultActiveTabId": "descript"
+    },
+    "children": ["tab-list#partners", "tab-content#partners"]
+  },
+  "tab-list#partners": {
+    "children": [
+      "tab-list.item#allpartners",
+      "tab-list.item#fiscal",
+      "tab-list.item#cloud",
+      "tab-list.item#cms",
+      "tab-list.item#crm",
+      "tab-list.item#integration",
+      "tab-list.item#marketing",
+      "tab-list.item#marketplace",
+      "tab-list.item#payment",
+      "tab-list.item#platform",
+      "tab-list.item#search"
+    ],
+    "props": { "blockClass": "tabpartners" }
+  },
+  "tab-content#partners": {
+    "children": [
+      "tab-content.item#allpartners",
+      "tab-content.item#fiscal",
+      "tab-content.item#cloud",
+      "tab-content.item#cms",
+      "tab-content.item#crm",
+      "tab-content.item#integration",
+      "tab-content.item#marketing",
+      "tab-content.item#marketplace",
+      "tab-content.item#payment",
+      "tab-content.item#platform",
+      "tab-content.item#search"
+    ]
+  },
+
+  /* Tab All-Partners*/
+  "tab-list.item#allpartners": {
+    "props": {
+      "tabId": "all-partners",
+      "label": "TODAS",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#allpartners": {
+    "children": [
+      "flex-layout.row#allpartners01",
+      "flex-layout.row#allpartners02",
+      "flex-layout.row#allpartners03",
+      "flex-layout.row#allpartners04",
+      "flex-layout.row#allpartners05"
+    ],
+    "props": {
+      "tabId": "all-partners"
+    }
+  },
+  "flex-layout.row#allpartners01": {
+    "children": [
+      "image#tabpartners01",
+      "image#tabpartners02",
+      "image#tabpartners03",
+      "image#tabpartners04"
+    ]
+  },
+  "flex-layout.row#allpartners02": {
+    "children": [
+      "image#tabpartners05",
+      "image#tabpartners06",
+      "image#tabpartners07",
+      "image#tabpartners08"
+    ]
+  },
+  "flex-layout.row#allpartners03": {
+    "children": [
+      "image#tabpartners09",
+      "image#tabpartners10",
+      "image#tabpartners11",
+      "image#tabpartners12"
+    ]
+  },
+  "flex-layout.row#allpartners04": {
+    "children": [
+      "image#tabpartners13",
+      "image#tabpartners14",
+      "image#tabpartners15",
+      "image#tabpartners16"
+    ]
+  },
+  "flex-layout.row#allpartners05": {
+    "children": ["image#tabpartners17", "image#tabpartners18"]
+  },
+  "image#tabpartners01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_adobe.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_avalara.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners03": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_aws.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners04": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_google.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners05": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/06/partner_linkapi.png",
+      "blockClass": "tabcms"
+    }
+  },
+  "image#tabpartners06": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_cadastra.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners07": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_mirakl.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners08": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_oracle.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners09": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_paypal.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners10": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_salesforce.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners11": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_wordpress.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners12": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_yotpo.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners13": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_zendesk.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners14": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_dito.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners15": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_sizebay.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners16": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_richrelevance.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners17": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_vurdere.png",
+      "blockClass": "tabpartners"
+    }
+  },
+  "image#tabpartners18": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_doofinder.png",
+      "blockClass": "tabpartners"
+    }
+  },
+
+  /*Tab Fiscal*/
+  "tab-list.item#fiscal": {
+    "props": {
+      "tabId": "fiscal",
+      "label": "FISCAL",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#fiscal": {
+    "children": ["flex-layout.row#fiscal"],
+    "props": {
+      "tabId": "fiscal"
+    }
+  },
+  "flex-layout.row#fiscal": {
+    "children": ["image#tabfiscal"]
+  },
+  "image#tabfiscal": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_avalara.png",
+      "blockClass": "tabfiscal"
+    }
+  },
+  /*Tab Cloud*/
+  "tab-list.item#cloud": {
+    "props": {
+      "tabId": "cloud",
+      "label": "CLOUD",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#cloud": {
+    "children": ["flex-layout.row#cloud"],
+    "props": {
+      "tabId": "cloud"
+    }
+  },
+  "flex-layout.row#cloud": {
+    "children": ["image#tabcloud01", "image#tabcloud02"]
+  },
+  "image#tabcloud01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_aws.png",
+      "blockClass": "tabcloud"
+    }
+  },
+  "image#tabcloud02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_oracle.png",
+      "blockClass": "tabcloud"
+    }
+  },
+
+  /*Tab CMS*/
+  "tab-list.item#cms": {
+    "props": {
+      "tabId": "cms",
+      "label": "CMS",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#cms": {
+    "children": ["flex-layout.row#cms"],
+    "props": {
+      "tabId": "cms"
+    }
+  },
+  "flex-layout.row#cms": {
+    "children": ["image#tabcms"]
+  },
+  "image#tabcms": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_wordpress.png",
+      "blockClass": "tabcms"
+    }
+  },
+  /*Tab CRM*/
+  "tab-list.item#crm": {
+    "props": {
+      "tabId": "crm",
+      "label": "CRM",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#crm": {
+    "children": ["flex-layout.row#crm"],
+    "props": {
+      "tabId": "crm"
+    }
+  },
+  "flex-layout.row#crm": {
+    "children": ["image#tabcrm01", "image#tabcrm02", "image#tabcrm03"]
+  },
+  "image#tabcrm01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_salesforce.png",
+      "blockClass": "tabcrm"
+    }
+  },
+  "image#tabcrm02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_zendesk.png",
+      "blockClass": "tabcrm"
+    }
+  },
+  "image#tabcrm03": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_dito.png",
+      "blockClass": "tabcrm"
+    }
+  },
+  /*Tab Integration*/
+  "tab-list.item#integration": {
+    "props": {
+      "tabId": "integration",
+      "label": "INTEGRATION",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#integration": {
+    "children": ["flex-layout.row#integration"],
+    "props": {
+      "tabId": "integration"
+    }
+  },
+  "flex-layout.row#integration": {
+    "children": [
+      "image#tabintegration01",
+      "image#tabintegration02",
+      "image#tabintegration03"
+    ]
+  },
+  "image#tabintegration01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/06/partner_linkapi.png",
+      "blockClass": "tabintegration"
+    }
+  },
+  "image#tabintegration02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_mirakl.png",
+      "blockClass": "tabintegration"
+    }
+  },
+  "image#tabintegration03": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_yotpo.png",
+      "blockClass": "tabintegration"
+    }
+  },
+  /*Tab Marketing*/
+  "tab-list.item#marketing": {
+    "props": {
+      "tabId": "marketing",
+      "label": "MARKETING",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#marketing": {
+    "children": ["flex-layout.row#marketing01", "flex-layout.row#marketing02"],
+    "props": {
+      "tabId": "marketing"
+    }
+  },
+  "flex-layout.row#marketing01": {
+    "children": [
+      "image#tabmarketing01",
+      "image#tabmarketing02",
+      "image#tabmarketing03",
+      "image#tabmarketing04"
+    ]
+  },
+  "flex-layout.row#marketing02": {
+    "children": ["image#tabmarketing05", "image#tabmarketing06"]
+  },
+  "image#tabmarketing01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_adobe.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  "image#tabmarketing02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_google.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  "image#tabmarketing03": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_cadastra.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  "image#tabmarketing04": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_sizebay.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  "image#tabmarketing05": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_richrelevance.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  "image#tabmarketing06": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_vurdere.png",
+      "blockClass": "tabmarketing"
+    }
+  },
+  /*Tab Marketplace*/
+  "tab-list.item#marketplace": {
+    "props": {
+      "tabId": "marketplace",
+      "label": "MARKETPLACE",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#marketplace": {
+    "children": ["flex-layout.row#marketplace"],
+    "props": {
+      "tabId": "marketplace"
+    }
+  },
+  "flex-layout.row#marketplace": {
+    "children": ["image#tabmarketplace"]
+  },
+  "image#tabmarketplace": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_mirakl.png",
+      "blockClass": "tabmarketplace"
+    }
+  },
+  /*Tab Payment*/
+  "tab-list.item#payment": {
+    "props": {
+      "tabId": "payment",
+      "label": "PAYMENT",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#payment": {
+    "children": ["flex-layout.row#payment"],
+    "props": {
+      "tabId": "payment"
+    }
+  },
+  "flex-layout.row#payment": {
+    "children": ["image#tabpayment"]
+  },
+  "image#tabpayment": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_paypal.png",
+      "blockClass": "tabpayment"
+    }
+  },
+  /*Tab Platform*/
+  "tab-list.item#platform": {
+    "props": {
+      "tabId": "platform",
+      "label": "PLATFORM",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#platform": {
+    "children": ["flex-layout.row#platform"],
+    "props": {
+      "tabId": "platform"
+    }
+  },
+  "flex-layout.row#platform": {
+    "children": ["image#tabplatform01", "image#tabplatform02"]
+  },
+  "image#tabplatform01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_adobe.png",
+      "blockClass": "tabplatform"
+    }
+  },
+  "image#tabplatform02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_salesforce.png",
+      "blockClass": "tabplatform"
+    }
+  },
+  /*Tab Search*/
+  "tab-list.item#search": {
+    "props": {
+      "tabId": "search",
+      "label": "SEARCH",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content.item#search": {
+    "children": ["flex-layout.row#search"],
+    "props": {
+      "tabId": "search"
+    }
+  },
+  "flex-layout.row#search": {
+    "children": ["image#tabsearch01", "image#tabsearch02"]
+  },
+  "image#tabsearch01": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_google.png",
+      "blockClass": "tabsearch"
+    }
+  },
+  "image#tabsearch02": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/partner_doofinder.png",
+      "blockClass": "tabsearch"
+    }
+  }
+}
