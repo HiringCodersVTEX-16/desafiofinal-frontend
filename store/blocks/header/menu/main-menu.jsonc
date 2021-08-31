@@ -85,10 +85,10 @@
       "blockClass": "main-menu",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/leads",
         "noFollow": false,
-        "tagTitle": "blog",
-        "text": "Blog",
+        "tagTitle": "leads",
+        "text": "Leads",
         "blockClass": "main-menu"
       }
     }},
@@ -100,7 +100,7 @@
         "blockClass": "main-menu",
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/parceiros",
           "noFollow": false,
           "tagTitle": "partners",
           "text": "Parceiros",

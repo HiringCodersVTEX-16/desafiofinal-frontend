@@ -1,6 +1,38 @@
 {
   "store.custom#leads": {
-    "children": [ 
+    "children": [
+      "flex-layout.row#leadsbanner", "flex-layout.row#leads" 
     ]
-  }
+  },
+  "flex-layout.row#leadsbanner":{
+    "children": ["flex-layout.col#leads01", "flex-layout.col#leads02"],
+    "props": {"blockClass": "contact-banner",
+      "preventHorizontalStrech": true
+   }
+   },
+    "flex-layout.col#leads01":{
+      "children": ["rich-text#leads"],
+      "props": {"blockClass": "contact-banner", 
+      "preventHorizontalStrech": true}
+    },
+    "flex-layout.col#leads02":{
+      "children": [  "rich-text#dot"   ],
+      "props": {"blockClass": "about-bannerinner  "}
+    },
+   
+    "rich-text#leads": { 
+      "props": { 
+        "text": "Nossos Clientes",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "blockClass": "contact-banner"
+      }
+    },
+    "flex-layout.row#leads":{
+    "children":[ "leads"],
+    "props":{
+      "blockClass": "leadsform"
+    }
+    }
 }
