@@ -59,11 +59,11 @@ Front-end com temática da ACCT, contendo:
 - https://acct.global/pt/
 - https://learn.vtex.com/docs/course-store-block-lang-pt
 
-### :open_file_folder: Repositórios do Projeto
-- <a href="https://github.com/HiringCodersVTEX-16/desafiofinal-checkout%22%3ECheckout</a>
-- <a href="https://github.com/HiringCodersVTEX-16/desafiofinal-apiaws%22%3EAPI AWS</a>
-- <a href="https://github.com/HiringCodersVTEX-16/APIAdmin%22%3EAPI Admin</a>
-- <a href="https://github.com/HiringCodersVTEX-16/react-app-template%22%3EComponente React para cadastro de leads</a>
+## 📂 Repositórios do Projeto
+- <a href="https://github.com/HiringCodersVTEX-16/desafiofinal-frontend">Front-end</a>
+- <a href="https://github.com/HiringCodersVTEX-16/desafiofinal-apiaws">API AWS</a>
+- <a href="https://github.com/HiringCodersVTEX-16/APIAdmin">API Admin</a>
+- <a href="https://github.com/HiringCodersVTEX-16/react-app-template">Componente React para cadastro de leads</a>
 
 <br>
 
