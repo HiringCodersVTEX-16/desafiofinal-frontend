@@ -62,7 +62,7 @@ Front-end com temática da ACCT, contendo:
 ## 📂 Repositórios do Projeto
 - <a href=https://github.com/HiringCodersVTEX-16/desafiofinal-checkout>Checkout</a>
 - <a href="https://github.com/HiringCodersVTEX-16/desafiofinal-apiaws">API AWS</a>
-- <a href="https://github.com/HiringCodersVTEX-16/APIAdmin">API Admin</a>
+- <a href="https://github.com/HiringCodersVTEX-16/API-Admin-Finalizado">API Admin</a>
 - <a href="https://github.com/HiringCodersVTEX-16/react-app-template">Componente React para cadastro de leads</a>
 
 <br>
