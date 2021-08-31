@@ -2,6 +2,20 @@
   display: none;
 }
 
-.caretIcon {
+.caretIcon--carousel {
   color: #ffffff;
+}
+
+/* Carousel do time */
+
+.sliderLayoutContainer--carousel-team {
+  width: 80%;
+  margin-bottom: 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slideChildrenContainer--carousel-team {
+  width: 100%;
+  padding-top: 50px;
 }

@@ -8,7 +8,11 @@
       // Blocos do Trusted by
       "flex-layout.row#trusted-by-title",
       "flex-layout.row#brandsIcons01",
-      "flex-layout.row#brandsIcons02"
+      "flex-layout.row#brandsIcons02",
+      //Blocos Team
+      "flex-layout.row#team",
+      "rich-text#description",
+      "slider-layout#team"
     ]
 }
 }

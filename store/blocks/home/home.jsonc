@@ -9,7 +9,9 @@
       // Blocos Serviços
       "flex-layout.row#serviceshome", "flex-layout.row#serviceshomeB",
       // Blocos Loja
-     "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos" 
+     "flex-layout.row#shoptittle", "search-result-layout.customQuery#produtos", 
+     // Form
+     "formulario"
     ]
   }
 }

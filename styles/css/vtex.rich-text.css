@@ -125,6 +125,29 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Team */
+/* Bloco Time */
+.paragraph--team-title {
+  color: #040404;
+  margin: 0.75rem 0 0.3rem 0;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+.paragraph--team-dot {
+  color: #fcc200;
+  font-size: 1.2rem;
+  padding-left: 2px;
+  margin-top: 22px;
+}
+
+.paragraph--team-description {
+  background: linear-gradient(to right, #fcc200 38%, #000000 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
 /* -------------- PRODUTOS -------------- */
 .paragraph--shop-banner {
   color: #ffffff;
